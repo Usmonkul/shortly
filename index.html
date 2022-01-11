@@ -13,75 +13,82 @@
 </head>
 <body>
   <header class="header">
-    <nav class="header-inner conatainer">
+    <nav class="header-inner container">
       <div class="logo-wrapper">
-        <img class="logo-img" src="/img/logo.svg" alt="logo" width="120" height="32">
-        <ul class="nav-list">
-          <li class="list-item">
-            <a href="#" class="list-item-link">Features</a>
-            <a href="#" class="list-item-link">Pricing</a>
-            <a href="#" class="list-item-link">Resources</a>
-          </li>
-        </ul>
-        <div class="registregion-links">
-          <a href="#" class="signin-link">Log In</a>
-          <a href="#" class="signup-link">Sign Up</a>
-        </div>
+        <a href="index.html">
+          <img class="logo-img" src="/img/logo.svg" alt="logo" width="120" height="32">
+        </a>
+      </div>
+      <ul class="nav-list">
+        <li class="list-item">
+          <a href="#" class="list-item-link">Features</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="list-item-link">Pricing</a>
+        </li>
+        <li class="list-item">
+          <a href="#" class="list-item-link">Resources</a>
+        </li>
+      </ul>
+      <div class="registregion-links">
+        <a href="#" class="signin-link">Log In</a>
+        <a href="#" class="signup-link">Sign Up</a>
       </div>
     </nav>
   </header>
   <main class="main-content">
     <section class="hero">
-      <div class="hero-inner conatainer">
+      <div class="hero-inner container">
         <div class="hero-info-content">
           <h2 class="hero-main-header">More than just shorter links</h2>
           <p class="hero-text">Build your brand's recognition and get detailed insghts on how your links are performing</p>
           <a href="#" class="get-btn btn">Get Started</a>
         </div>
       </div>
-      <div class="service-box conatainer">
-        <form class="shortenner-form" action="https://echo.htmlacademy.ru" method="post">
-          <input type="url" name="shortener" id="shortener" placeholder="Shorten a link here..." required aria-label="Shorten a link here">
-          <button class="btn btn-shortenit" type="submit">Shorten It!</button>
-        </form>
-      </div>
     </section>
+    <div class="service-box container">
+      <form class="shortenner-form" action="https://echo.htmlacademy.ru" method="post">
+        <input class="link-input" type="url" name="shortener" id="shortener" placeholder="Shorten a link here..." required aria-label="Shorten a link here">
+        <button class="btn btn-shortenit" type="submit">Shorten It!</button>
+      </form>
+    </div>
     <section class="statistics-section">
-      <div class="statistics-inner conatainer">
+      <div class="statistics-inner container">
         <h3 class="statistics-header">Advanced Statistics</h3>
         <p class="statistics-text-info">Track how your links are performing across the web with our advenced statistics dashboard.</p>
+        <div class="sevices-wrapper">
+          <ul class="services">
+            <li class="services-box">
+              <img src="/img/icon-brand-recognition.svg" alt="Brand Recognition" class="service-avatar-img">
+              <h5 class="service-title">Brand Recognition</h5>
+              <p class="service-info">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.</p>
+            </li>
+            <li class="services-box">
+              <img src="/img/icon-records.svg" alt="Detailed Records" class="service-avatar-img">
+              <h5 class="service-title">Detailed Records</h5>
+              <p class="service-info">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+            </li>
+            <li class="services-box">
+              <img src="/img/icon-customization.svg" alt="ully Customizable" class="service-avatar-img">
+              <h5 class="service-title">Fully Customizable</h5>
+              <p class="service-info">Improve brand awareness and content discoveribility through customizable links, supercharging audience angagement.</p>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="sevices-wrapper">
-        <ul class="services">
-          <li class="services-box">
-            <img src="/img/icon-brand-recognition.svg" alt="Brand Recognition" class="service-avatar-img">
-            <h5 class="service-title">Brand Recognition</h5>
-            <p class="service-info">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content.</p>
-          </li>
-          <li class="services-box">
-            <img src="/img/icon-records.svg" alt="Detailed Records" class="service-avatar-img">
-            <h5 class="service-title">Detailed Records</h5>
-            <p class="service-info">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
-          </li>
-          <li class="services-box">
-            <img src="/img/icon-customization.svg" alt="ully Customizable" class="service-avatar-img">
-            <h5 class="service-title">Fully Customizable</h5>
-            <p class="service-info">Improve brand awareness and content discoveribility through customizable links, supercharging audience angagement.</p>
-          </li>
-        </ul>
-      </div>
+
     </section>
     <section class="cta-section">
-      <div class="cta-inner">
+      <div class="cta-inner container">
         <h3 class="cta-header">Boost your links today</h3>
         <a href="#" class="get-btn btn">Get Started</a>
       </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer-inner conatainer">
+    <div class="footer-inner container">
       <div class="footer-logo">
-        <img src="/img/logo.svgs" alt="Footer Logo" class="footer-logo-img" width="120" height="32">
+        <img src="/img/logo.svg" alt="Footer Logo" class="footer-logo-img" width="120" height="32">
       </div>
       <div class="footer-navbar">
         <ul class="footer-nav-list">
