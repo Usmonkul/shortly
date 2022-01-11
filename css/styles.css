@@ -1,4 +1,11 @@
 :root {
+  /* Colors */
+  --main-color: #2BD0D0;
+  --secondary-color: #4B3F6B;
+  --text-color1: #34313D;
+  --text-color2: #3A3054;
+  --text-color3: #9E9AA8;
+  --white-bg: #EFF1F7;
 }
 
 /* GENERAL */
@@ -25,15 +32,22 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   background-color: #fff;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
-
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -48,9 +62,9 @@ img {
 
 /* CONTAINER */
 .container {
-  max-width: 900px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
